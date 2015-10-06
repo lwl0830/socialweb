@@ -1,0 +1,44 @@
+/*
+ * Style tweaks
+ * --------------------------------------------------
+ */
+html,
+body {
+  overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+body {
+  padding-top: 20px;
+}
+footer {
+  padding: 30px 0;
+}
+
+.glyphicon {
+    font-size: 40px;
+}
+
+#logo {
+  margin-left: 5%;
+  display: inline;
+  width: 30%;Y
+  height: 5%;
+}
+
+#friends {
+  float: right;
+  margin-right: 100px;
+  margin-bottom: 40px;
+}
+
+.col-sm-3 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #eee;
+  background-color: rgba(86,61,124,.15);
+  border: 1px solid #ddd;
+  border: 1px solid rgba(86,61,124,.2);
+}
+
+.row {
+  clear:both;
+}
